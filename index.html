@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <h1>Student Registration Portal</h1>
+        <p>Register and manage student applications</p>
+
+    </header>
+    <div class="container-01">
+        <div class="form-container">
+            <form>
+
+              
+                <div class="con1">
+                <p>First Name:</p>
+                <input type="text" name="user-name" id="user-name" minlength="3" maxlength="40" required>
+                <p>Email:</p>
+                <input type="email" name="user-email" id="user-email" required>
+                </div>
+                
+                <div class="con1">
+                <p>Phone no.:</p>
+                <input type="text" maxlength="10" name="user-phone-no." id="user-phone-no." required>
+                <p>Date Of Birth:</p>
+                <input type="date" name="user-DOB" id="user-DOB" required>
+                </div>
+                
+                <div class="con1">
+                <p>Gender:</p>
+                <input type="radio" name="user-fem" id="female"><p>Female</p>
+                <input type="radio" name="user-male" id="male"><p>Male</p>
+                <input type="radio" name="user-other" id="other"><p>Other</p>
+                </div>
+
+                <div class="con1">
+                <p>Course:</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>Web Development</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>UI/UX</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>Python</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>Data Analytics</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>MERN Stack</p>
+                <input type="checkbox" name="user-skills" id="user-skills"> <p>Cloud Computing</p>
+                </div>
+
+                <div class="con1">
+                <p>Skills:</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>html</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>css</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>javascript</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>git</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>React</p>
+                <input type="checkbox" name="user-skils" id="serser-skills"> <p>Node.js</p>
+                </div>
+                
+                <p>About:</p>
+                <input type="text" name="user-about" id="user-about" style="height:50px; width:300px;" minlength="200" required>
+
+                <p>Profile Photo:</p>
+                <input type="file" name="profile-photo" id="profile-photo" required>
+                
+                <br>
+                <br>
+                <button type="submit" id="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+
+            </form>
+        </div>
+    </div>
+
+     <script src = "script.js"></script>
+</body>
+</html>
